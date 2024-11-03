@@ -14,6 +14,13 @@
             </header>
             <div class="card-content" id="chat-box" style="flex: 1; overflow-y: auto; padding-bottom: 15px;">
                 <!-- Chat messages will appear here -->
+                <div class="bot-message mb-2">
+                    <div class="message is-light is-inline-block">
+                        <div class="message-body">
+                            Hello! I’m your advisor today, input a company and let's get started!
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <footer class="card-footer" style="border: none; padding: 10px 20px;">
@@ -23,7 +30,7 @@
                         <input type="text" id="message-input" name="message" class="input is-rounded" placeholder="Message the advisor" autocomplete="off" style="border-radius: 5px; width: 98%;">
                     </div>
                     <div class="control">
-                        <button type="submit" id="send-button" class="button is-light" style="border-radius: 5px;">
+                        <button type="submit" id="send-button" class="button is-dark" style="border-radius: 5px;">
                             <span>Send</span>
                             <span class="icon is-small">
                                 <i class="fas fa-paper-plane"></i>

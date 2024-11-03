@@ -1,0 +1,2 @@
+stocks/data/copy/prices.csv filter=lfs diff=lfs merge=lfs -text
+stocks/data/old/sp500_stocks.csv filter=lfs diff=lfs merge=lfs -text

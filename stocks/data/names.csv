@@ -1,0 +1,504 @@
+Symbol,Longname,Sector
+AAPL,Apple Inc.,Technology
+NVDA,NVIDIA Corporation,Technology
+MSFT,Microsoft Corporation,Technology
+GOOGL,Alphabet Inc.,Communication Services
+GOOG,Alphabet Inc.,Communication Services
+AMZN,"Amazon.com, Inc.",Consumer Cyclical
+META,"Meta Platforms, Inc.",Communication Services
+BRK-B,Berkshire Hathaway Inc.,Financial Services
+TSLA,"Tesla, Inc.",Consumer Cyclical
+AVGO,Broadcom Inc.,Technology
+LLY,Eli Lilly and Company,Healthcare
+WMT,Walmart Inc.,Consumer Defensive
+JPM,JPMorgan Chase & Co.,Financial Services
+V,Visa Inc.,Financial Services
+UNH,UnitedHealth Group Incorporated,Healthcare
+XOM,Exxon Mobil Corporation,Energy
+ORCL,Oracle Corporation,Technology
+MA,Mastercard Incorporated,Financial Services
+HD,"The Home Depot, Inc.",Consumer Cyclical
+PG,The Procter & Gamble Company,Consumer Defensive
+COST,Costco Wholesale Corporation,Consumer Defensive
+JNJ,Johnson & Johnson,Healthcare
+ABBV,AbbVie Inc.,Healthcare
+NFLX,"Netflix, Inc.",Communication Services
+BAC,Bank of America Corporation,Financial Services
+CRM,"Salesforce, Inc.",Technology
+KO,The Coca-Cola Company,Consumer Defensive
+CVX,Chevron Corporation,Energy
+TMUS,"T-Mobile US, Inc.",Communication Services
+MRK,"Merck & Co., Inc.",Healthcare
+AMD,"Advanced Micro Devices, Inc.",Technology
+PEP,"PepsiCo, Inc.",Consumer Defensive
+CSCO,"Cisco Systems, Inc.",Technology
+WFC,Wells Fargo & Company,Financial Services
+LIN,Linde plc,Basic Materials
+ACN,Accenture plc,Technology
+TMO,Thermo Fisher Scientific Inc.,Healthcare
+ADBE,Adobe Inc.,Technology
+MCD,McDonald's Corporation,Consumer Cyclical
+BX,Blackstone Inc.,Financial Services
+ABT,Abbott Laboratories,Healthcare
+PM,Philip Morris International Inc.,Consumer Defensive
+NOW,"ServiceNow, Inc.",Technology
+IBM,International Business Machines Corporation,Technology
+AXP,American Express Company,Financial Services
+MS,Morgan Stanley,Financial Services
+TXN,Texas Instruments Incorporated,Technology
+GE,GE Aerospace,Industrials
+QCOM,QUALCOMM Incorporated,Technology
+CAT,Caterpillar Inc.,Industrials
+ISRG,"Intuitive Surgical, Inc.",Healthcare
+DHR,Danaher Corporation,Healthcare
+INTU,Intuit Inc.,Technology
+VZ,Verizon Communications Inc.,Communication Services
+DIS,The Walt Disney Company,Communication Services
+AMGN,Amgen Inc.,Healthcare
+CMCSA,Comcast Corporation,Communication Services
+GS,"The Goldman Sachs Group, Inc.",Financial Services
+PFE,Pfizer Inc.,Healthcare
+NEE,"NextEra Energy, Inc.",Utilities
+T,AT&T Inc.,Communication Services
+RTX,RTX Corporation,Industrials
+BKNG,Booking Holdings Inc.,Consumer Cyclical
+UBER,"Uber Technologies, Inc.",Technology
+AMAT,"Applied Materials, Inc.",Technology
+SPGI,S&P Global Inc.,Financial Services
+LOW,"Lowe's Companies, Inc.",Consumer Cyclical
+BLK,"BlackRock, Inc.",Financial Services
+PGR,The Progressive Corporation,Financial Services
+UNP,Union Pacific Corporation,Industrials
+SYK,Stryker Corporation,Healthcare
+HON,Honeywell International Inc.,Industrials
+ETN,Eaton Corporation plc,Industrials
+SCHW,The Charles Schwab Corporation,Financial Services
+LMT,Lockheed Martin Corporation,Industrials
+KKR,KKR & Co. Inc.,Financial Services
+TJX,"The TJX Companies, Inc.",Consumer Cyclical
+COP,ConocoPhillips,Energy
+ANET,"Arista Networks, Inc.",Technology
+BSX,Boston Scientific Corporation,Healthcare
+VRTX,Vertex Pharmaceuticals Incorporated,Healthcare
+C,Citigroup Inc.,Financial Services
+PANW,"Palo Alto Networks, Inc.",Technology
+ADP,"Automatic Data Processing, Inc.",Technology
+NKE,"NIKE, Inc.",Consumer Cyclical
+BA,The Boeing Company,Industrials
+MDT,Medtronic plc,Healthcare
+FI,"Fiserv, Inc.",Technology
+UPS,"United Parcel Service, Inc.",Industrials
+SBUX,Starbucks Corporation,Consumer Cyclical
+ADI,"Analog Devices, Inc.",Technology
+CB,Chubb Limited,Financial Services
+GILD,"Gilead Sciences, Inc.",Healthcare
+MU,"Micron Technology, Inc.",Technology
+BMY,Bristol-Myers Squibb Company,Healthcare
+DE,Deere & Company,Industrials
+MMC,"Marsh & McLennan Companies, Inc.",Financial Services
+PLD,"Prologis, Inc.",Real Estate
+INTC,Intel Corporation,Technology
+AMT,American Tower Corporation,Real Estate
+SO,The Southern Company,Utilities
+LRCX,Lam Research Corporation,Technology
+ELV,"Elevance Health, Inc.",Healthcare
+PLTR,Palantir Technologies Inc.,Technology
+REGN,"Regeneron Pharmaceuticals, Inc.",Healthcare
+HCA,"HCA Healthcare, Inc.",Healthcare
+MO,"Altria Group, Inc.",Consumer Defensive
+DELL,Dell Technologies Inc.,Technology
+MDLZ,"Mondelez International, Inc.",Consumer Defensive
+SHW,The Sherwin-Williams Company,Basic Materials
+KLAC,KLA Corporation,Technology
+ICE,"Intercontinental Exchange, Inc.",Financial Services
+CI,The Cigna Group,Healthcare
+DUK,Duke Energy Corporation,Utilities
+ABNB,"Airbnb, Inc.",Consumer Cyclical
+WM,"Waste Management, Inc.",Industrials
+EQIX,"Equinix, Inc.",Real Estate
+TT,Trane Technologies plc,Industrials
+GEV,GE Vernova Inc.,Utilities
+WELL,Welltower Inc.,Real Estate
+CTAS,Cintas Corporation,Industrials
+MCO,Moody's Corporation,Financial Services
+ZTS,Zoetis Inc.,Healthcare
+APH,Amphenol Corporation,Technology
+PH,Parker-Hannifin Corporation,Industrials
+CEG,Constellation Energy Corporation,Utilities
+GD,General Dynamics Corporation,Industrials
+CME,CME Group Inc.,Financial Services
+CMG,"Chipotle Mexican Grill, Inc.",Consumer Cyclical
+SNPS,"Synopsys, Inc.",Technology
+AON,Aon plc,Financial Services
+ITW,Illinois Tool Works Inc.,Industrials
+PYPL,"PayPal Holdings, Inc.",Financial Services
+CDNS,"Cadence Design Systems, Inc.",Technology
+CL,Colgate-Palmolive Company,Consumer Defensive
+MSI,"Motorola Solutions, Inc.",Technology
+USB,U.S. Bancorp,Financial Services
+CRWD,"CrowdStrike Holdings, Inc.",Technology
+PNC,"The PNC Financial Services Group, Inc.",Financial Services
+NOC,Northrop Grumman Corporation,Industrials
+MAR,"Marriott International, Inc.",Consumer Cyclical
+TDG,TransDigm Group Incorporated,Industrials
+CVS,CVS Health Corporation,Healthcare
+ECL,Ecolab Inc.,Basic Materials
+TGT,Target Corporation,Consumer Defensive
+MMM,3M Company,Industrials
+APD,"Air Products and Chemicals, Inc.",Basic Materials
+EOG,"EOG Resources, Inc.",Energy
+MCK,McKesson Corporation,Healthcare
+BDX,"Becton, Dickinson and Company",Healthcare
+FDX,FedEx Corporation,Industrials
+ORLY,"O'Reilly Automotive, Inc.",Consumer Cyclical
+FCX,Freeport-McMoRan Inc.,Basic Materials
+CARR,Carrier Global Corporation,Industrials
+CSX,CSX Corporation,Industrials
+SPG,"Simon Property Group, Inc.",Real Estate
+WMB,"The Williams Companies, Inc.",Energy
+COF,Capital One Financial Corporation,Financial Services
+RSG,"Republic Services, Inc.",Industrials
+EMR,Emerson Electric Co.,Industrials
+ADSK,"Autodesk, Inc.",Technology
+AJG,Arthur J. Gallagher & Co.,Financial Services
+NXPI,NXP Semiconductors N.V.,Technology
+FTNT,"Fortinet, Inc.",Technology
+DLR,"Digital Realty Trust, Inc.",Real Estate
+AFL,Aflac Incorporated,Financial Services
+ROP,"Roper Technologies, Inc.",Technology
+HLT,Hilton Worldwide Holdings Inc.,Consumer Cyclical
+TFC,Truist Financial Corporation,Financial Services
+PSA,Public Storage,Real Estate
+NSC,Norfolk Southern Corporation,Industrials
+SLB,Schlumberger Limited,Energy
+GM,General Motors Company,Consumer Cyclical
+TRV,"The Travelers Companies, Inc.",Financial Services
+BK,The Bank of New York Mellon Corporation,Financial Services
+OKE,"ONEOK, Inc.",Energy
+MET,"MetLife, Inc.",Financial Services
+RCL,Royal Caribbean Cruises Ltd.,Consumer Cyclical
+DHI,"D.R. Horton, Inc.",Consumer Cyclical
+PCAR,PACCAR Inc,Industrials
+GWW,"W.W. Grainger, Inc.",Industrials
+KMI,"Kinder Morgan, Inc.",Energy
+PCG,PG&E Corporation,Utilities
+CHTR,"Charter Communications, Inc.",Communication Services
+URI,"United Rentals, Inc.",Industrials
+AEP,"American Electric Power Company, Inc.",Utilities
+SRE,Sempra,Utilities
+NEM,Newmont Corporation,Basic Materials
+FANG,"Diamondback Energy, Inc.",Energy
+O,Realty Income Corporation,Real Estate
+MNST,Monster Beverage Corporation,Consumer Defensive
+JCI,Johnson Controls International plc,Industrials
+AZO,"AutoZone, Inc.",Consumer Cyclical
+PAYX,"Paychex, Inc.",Technology
+CPRT,"Copart, Inc.",Industrials
+PSX,Phillips 66,Energy
+D,"Dominion Energy, Inc.",Utilities
+AMP,"Ameriprise Financial, Inc.",Financial Services
+FICO,Fair Isaac Corporation,Technology
+ALL,The Allstate Corporation,Financial Services
+AIG,"American International Group, Inc.",Financial Services
+FIS,"Fidelity National Information Services, Inc.",Technology
+MPC,Marathon Petroleum Corporation,Energy
+LHX,"L3Harris Technologies, Inc.",Industrials
+ROST,"Ross Stores, Inc.",Consumer Cyclical
+OXY,Occidental Petroleum Corporation,Energy
+CCI,Crown Castle Inc.,Real Estate
+COR,"Cencora, Inc.",Healthcare
+LEN,Lennar Corporation,Consumer Cyclical
+MSCI,MSCI Inc.,Financial Services
+CMI,Cummins Inc.,Industrials
+TEL,TE Connectivity plc,Technology
+KMB,Kimberly-Clark Corporation,Consumer Defensive
+FAST,Fastenal Company,Industrials
+PWR,"Quanta Services, Inc.",Industrials
+KDP,Keurig Dr Pepper Inc.,Consumer Defensive
+KVUE,Kenvue Inc.,Consumer Defensive
+PEG,Public Service Enterprise Group Incorporated,Utilities
+PRU,"Prudential Financial, Inc.",Financial Services
+ODFL,"Old Dominion Freight Line, Inc.",Industrials
+NDAQ,"Nasdaq, Inc.",Financial Services
+HES,Hess Corporation,Energy
+STZ,"Constellation Brands, Inc.",Consumer Defensive
+CTVA,"Corteva, Inc.",Basic Materials
+GLW,Corning Incorporated,Technology
+AME,"AMETEK, Inc.",Industrials
+VST,Vistra Corp.,Utilities
+KR,The Kroger Co.,Consumer Defensive
+HWM,Howmet Aerospace Inc.,Industrials
+EW,Edwards Lifesciences Corporation,Healthcare
+F,Ford Motor Company,Consumer Cyclical
+VLO,Valero Energy Corporation,Energy
+KHC,The Kraft Heinz Company,Consumer Defensive
+MCHP,Microchip Technology Incorporated,Technology
+EA,Electronic Arts Inc.,Communication Services
+CBRE,"CBRE Group, Inc.",Real Estate
+OTIS,Otis Worldwide Corporation,Industrials
+GEHC,GE HealthCare Technologies Inc.,Healthcare
+LULU,Lululemon Athletica Inc.,Consumer Cyclical
+A,"Agilent Technologies, Inc.",Healthcare
+VRSK,"Verisk Analytics, Inc.",Industrials
+IT,"Gartner, Inc.",Technology
+EXC,Exelon Corporation,Utilities
+XEL,Xcel Energy Inc.,Utilities
+IQV,IQVIA Holdings Inc.,Healthcare
+GRMN,Garmin Ltd.,Technology
+DFS,Discover Financial Services,Financial Services
+IR,Ingersoll Rand Inc.,Industrials
+GIS,"General Mills, Inc.",Consumer Defensive
+DAL,"Delta Air Lines, Inc.",Industrials
+LVS,Las Vegas Sands Corp.,Consumer Cyclical
+BKR,Baker Hughes Company,Energy
+YUM,"Yum! Brands, Inc.",Consumer Cyclical
+MPWR,"Monolithic Power Systems, Inc.",Technology
+CTSH,Cognizant Technology Solutions Corporation,Technology
+SYY,Sysco Corporation,Consumer Defensive
+HSY,The Hershey Company,Consumer Defensive
+TRGP,Targa Resources Corp.,Energy
+ACGL,Arch Capital Group Ltd.,Financial Services
+RMD,ResMed Inc.,Healthcare
+VMC,Vulcan Materials Company,Basic Materials
+EXR,Extra Space Storage Inc.,Real Estate
+IRM,Iron Mountain Incorporated,Real Estate
+MLM,"Martin Marietta Materials, Inc.",Basic Materials
+HPQ,HP Inc.,Technology
+ED,"Consolidated Edison, Inc.",Utilities
+DD,"DuPont de Nemours, Inc.",Basic Materials
+IDXX,"IDEXX Laboratories, Inc.",Healthcare
+DOW,Dow Inc.,Basic Materials
+NUE,Nucor Corporation,Basic Materials
+VICI,VICI Properties Inc.,Real Estate
+EFX,Equifax Inc.,Industrials
+AXON,"Axon Enterprise, Inc.",Industrials
+WAB,Westinghouse Air Brake Technologies Corporation,Industrials
+MTB,M&T Bank Corporation,Financial Services
+CNC,Centene Corporation,Healthcare
+HIG,"The Hartford Financial Services Group, Inc.",Financial Services
+EIX,Edison International,Utilities
+HUM,Humana Inc.,Healthcare
+ETR,Entergy Corporation,Utilities
+AVB,"AvalonBay Communities, Inc.",Real Estate
+ROK,"Rockwell Automation, Inc.",Industrials
+WTW,Willis Towers Watson Public Limited Company,Financial Services
+WEC,"WEC Energy Group, Inc.",Utilities
+ON,ON Semiconductor Corporation,Technology
+BRO,"Brown & Brown, Inc.",Financial Services
+CSGP,"CoStar Group, Inc.",Real Estate
+CCL,Carnival Corporation & plc,Consumer Cyclical
+RJF,"Raymond James Financial, Inc.",Financial Services
+FITB,Fifth Third Bancorp,Financial Services
+PPG,"PPG Industries, Inc.",Basic Materials
+XYL,Xylem Inc.,Industrials
+TSCO,Tractor Supply Company,Consumer Cyclical
+TTWO,"Take-Two Interactive Software, Inc.",Communication Services
+MTD,Mettler-Toledo International Inc.,Healthcare
+EBAY,eBay Inc.,Consumer Cyclical
+ANSS,"ANSYS, Inc.",Technology
+LYB,LyondellBasell Industries N.V.,Basic Materials
+CAH,"Cardinal Health, Inc.",Healthcare
+NVR,"NVR, Inc.",Consumer Cyclical
+K,Kellanova,Consumer Defensive
+DXCM,"DexCom, Inc.",Healthcare
+STT,State Street Corporation,Financial Services
+LYV,"Live Nation Entertainment, Inc.",Communication Services
+EQR,Equity Residential,Real Estate
+VTR,"Ventas, Inc.",Real Estate
+SW,Smurfit Westrock Plc,Consumer Cyclical
+GPN,Global Payments Inc.,Industrials
+AWK,"American Water Works Company, Inc.",Utilities
+UAL,"United Airlines Holdings, Inc.",Industrials
+PHM,"PulteGroup, Inc.",Consumer Cyclical
+KEYS,"Keysight Technologies, Inc.",Technology
+ADM,Archer-Daniels-Midland Company,Consumer Defensive
+HPE,Hewlett Packard Enterprise Company,Technology
+DOV,Dover Corporation,Industrials
+TYL,"Tyler Technologies, Inc.",Technology
+CHD,"Church & Dwight Co., Inc.",Consumer Defensive
+BIIB,Biogen Inc.,Healthcare
+IFF,International Flavors & Fragrances Inc.,Basic Materials
+DVN,Devon Energy Corporation,Energy
+VLTO,Veralto Corporation,Industrials
+DTE,DTE Energy Company,Utilities
+CDW,CDW Corporation,Technology
+TROW,"T. Rowe Price Group, Inc.",Financial Services
+HST,"Host Hotels & Resorts, Inc.",Real Estate
+FTV,Fortive Corporation,Technology
+BR,"Broadridge Financial Solutions, Inc.",Technology
+HAL,Halliburton Company,Energy
+LDOS,"Leidos Holdings, Inc.",Technology
+SBAC,SBA Communications Corporation,Real Estate
+DECK,Deckers Outdoor Corporation,Consumer Cyclical
+FE,FirstEnergy Corp.,Utilities
+EL,The Estée Lauder Companies Inc.,Consumer Defensive
+NTAP,"NetApp, Inc.",Technology
+PPL,PPL Corporation,Utilities
+WAT,Waters Corporation,Healthcare
+GDDY,GoDaddy Inc.,Technology
+ROL,"Rollins, Inc.",Consumer Cyclical
+WST,"West Pharmaceutical Services, Inc.",Healthcare
+AEE,Ameren Corporation,Utilities
+CPAY,"Corpay, Inc.",Technology
+HUBB,Hubbell Incorporated,Industrials
+WDC,Western Digital Corporation,Technology
+ES,Eversource Energy,Utilities
+WY,Weyerhaeuser Company,Real Estate
+HBAN,Huntington Bancshares Incorporated,Financial Services
+PTC,PTC Inc.,Technology
+STE,STERIS plc,Healthcare
+CINF,Cincinnati Financial Corporation,Financial Services
+CBOE,"Cboe Global Markets, Inc.",Financial Services
+FSLR,"First Solar, Inc.",Technology
+WRB,W. R. Berkley Corporation,Financial Services
+ERIE,Erie Indemnity Company,Financial Services
+SYF,Synchrony Financial,Financial Services
+ATO,Atmos Energy Corporation,Utilities
+RF,Regions Financial Corporation,Financial Services
+ZBH,"Zimmer Biomet Holdings, Inc.",Healthcare
+EQT,EQT Corporation,Energy
+TDY,Teledyne Technologies Incorporated,Technology
+MKC,"McCormick & Company, Incorporated",Consumer Defensive
+COO,"The Cooper Companies, Inc.",Healthcare
+MRNA,"Moderna, Inc.",Healthcare
+STX,Seagate Technology Holdings plc,Technology
+TSN,"Tyson Foods, Inc.",Consumer Defensive
+EXPE,"Expedia Group, Inc.",Consumer Cyclical
+PKG,Packaging Corporation of America,Consumer Cyclical
+STLD,"Steel Dynamics, Inc.",Basic Materials
+BF-B,Brown-Forman Corporation,Consumer Defensive
+CMS,CMS Energy Corporation,Utilities
+CLX,The Clorox Company,Consumer Defensive
+WBD,"Warner Bros. Discovery, Inc.",Communication Services
+BLDR,"Builders FirstSource, Inc.",Industrials
+ZBRA,Zebra Technologies Corporation,Technology
+NTRS,Northern Trust Corporation,Financial Services
+OMC,Omnicom Group Inc.,Communication Services
+BBY,"Best Buy Co., Inc.",Consumer Cyclical
+ARE,"Alexandria Real Estate Equities, Inc.",Real Estate
+IP,International Paper Company,Consumer Cyclical
+INVH,Invitation Homes Inc.,Real Estate
+HOLX,"Hologic, Inc.",Healthcare
+LH,Labcorp Holdings Inc.,Healthcare
+PFG,"Principal Financial Group, Inc.",Financial Services
+DRI,"Darden Restaurants, Inc.",Consumer Cyclical
+MOH,"Molina Healthcare, Inc.",Healthcare
+CNP,"CenterPoint Energy, Inc.",Utilities
+CFG,"Citizens Financial Group, Inc.",Financial Services
+FOX,Fox Corporation,Communication Services
+FOXA,Fox Corporation,Communication Services
+ESS,"Essex Property Trust, Inc.",Real Estate
+LUV,Southwest Airlines Co.,Industrials
+MAA,"Mid-America Apartment Communities, Inc.",Real Estate
+BAX,Baxter International Inc.,Healthcare
+JBHT,"J.B. Hunt Transport Services, Inc.",Industrials
+DG,Dollar General Corporation,Consumer Defensive
+NRG,"NRG Energy, Inc.",Utilities
+ULTA,"Ulta Beauty, Inc.",Consumer Cyclical
+BALL,Ball Corporation,Consumer Cyclical
+FDS,FactSet Research Systems Inc.,Financial Services
+GEN,Gen Digital Inc.,Technology
+SNA,Snap-on Incorporated,Industrials
+L,Loews Corporation,Financial Services
+TER,"Teradyne, Inc.",Technology
+J,Jacobs Solutions Inc.,Industrials
+DGX,Quest Diagnostics Incorporated,Healthcare
+MAS,Masco Corporation,Industrials
+KEY,KeyCorp,Financial Services
+VRSN,"VeriSign, Inc.",Technology
+HRL,Hormel Foods Corporation,Consumer Defensive
+EXPD,"Expeditors International of Washington, Inc.",Industrials
+CTRA,Coterra Energy Inc.,Energy
+AVY,Avery Dennison Corporation,Consumer Cyclical
+PODD,Insulet Corporation,Healthcare
+IEX,IDEX Corporation,Industrials
+PNR,Pentair plc,Industrials
+NI,NiSource Inc.,Utilities
+KIM,Kimco Realty Corporation,Real Estate
+NWSA,News Corporation,Communication Services
+NWS,News Corporation,Communication Services
+GPC,Genuine Parts Company,Consumer Cyclical
+ALGN,"Align Technology, Inc.",Healthcare
+UDR,"UDR, Inc.",Real Estate
+DOC,"Healthpeak Properties, Inc.",Real Estate
+MRO,Marathon Oil Corporation,Energy
+SMCI,"Super Micro Computer, Inc.",Technology
+AKAM,"Akamai Technologies, Inc.",Technology
+CF,"CF Industries Holdings, Inc.",Basic Materials
+TXT,Textron Inc.,Industrials
+EG,"Everest Group, Ltd.",Financial Services
+TRMB,Trimble Inc.,Technology
+RVTY,"Revvity, Inc.",Healthcare
+AMCR,Amcor plc,Consumer Cyclical
+LNT,Alliant Energy Corporation,Utilities
+DPZ,"Domino's Pizza, Inc.",Consumer Cyclical
+INCY,Incyte Corporation,Healthcare
+JBL,Jabil Inc.,Technology
+SWK,"Stanley Black & Decker, Inc.",Industrials
+DLTR,"Dollar Tree, Inc.",Consumer Defensive
+NDSN,Nordson Corporation,Industrials
+SWKS,"Skyworks Solutions, Inc.",Technology
+BXP,"BXP, Inc.",Real Estate
+VTRS,Viatris Inc.,Healthcare
+CAG,"Conagra Brands, Inc.",Consumer Defensive
+POOL,Pool Corporation,Industrials
+CPB,Campbell Soup Company,Consumer Defensive
+EVRG,"Evergy, Inc.",Utilities
+UHS,"Universal Health Services, Inc.",Healthcare
+CE,Celanese Corporation,Basic Materials
+FFIV,"F5, Inc.",Technology
+JKHY,"Jack Henry & Associates, Inc.",Technology
+APTV,Aptiv PLC,Consumer Cyclical
+REG,Regency Centers Corporation,Real Estate
+JNPR,"Juniper Networks, Inc.",Technology
+SOLV,Solventum Corporation,Healthcare
+RL,Ralph Lauren Corporation,Consumer Cyclical
+ALLE,Allegion plc,Industrials
+PAYC,"Paycom Software, Inc.",Technology
+CPT,Camden Property Trust,Real Estate
+SJM,The J. M. Smucker Company,Consumer Defensive
+TECH,Bio-Techne Corporation,Healthcare
+CHRW,"C.H. Robinson Worldwide, Inc.",Industrials
+DAY,Dayforce Inc,Technology
+EMN,Eastman Chemical Company,Basic Materials
+DVA,DaVita Inc.,Healthcare
+ALB,Albemarle Corporation,Basic Materials
+BG,Bunge Global SA,Consumer Defensive
+TAP,Molson Coors Beverage Company,Consumer Defensive
+ENPH,"Enphase Energy, Inc.",Technology
+KMX,"CarMax, Inc.",Consumer Cyclical
+LW,"Lamb Weston Holdings, Inc.",Consumer Defensive
+IPG,"The Interpublic Group of Companies, Inc.",Communication Services
+NCLH,Norwegian Cruise Line Holdings Ltd.,Consumer Cyclical
+TPR,"Tapestry, Inc.",Consumer Cyclical
+AOS,A. O. Smith Corporation,Industrials
+BEN,"Franklin Resources, Inc.",Financial Services
+MKTX,MarketAxess Holdings Inc.,Financial Services
+MGM,MGM Resorts International,Consumer Cyclical
+EPAM,"EPAM Systems, Inc.",Technology
+CTLT,"Catalent, Inc.",Healthcare
+WYNN,"Wynn Resorts, Limited",Consumer Cyclical
+AES,The AES Corporation,Utilities
+GNRC,Generac Holdings Inc.,Industrials
+AIZ,"Assurant, Inc.",Financial Services
+TFX,Teleflex Incorporated,Healthcare
+PNW,Pinnacle West Capital Corporation,Utilities
+LKQ,LKQ Corporation,Consumer Cyclical
+FRT,Federal Realty Investment Trust,Real Estate
+CRL,"Charles River Laboratories International, Inc.",Healthcare
+GL,Globe Life Inc.,Financial Services
+MTCH,"Match Group, Inc.",Communication Services
+HAS,"Hasbro, Inc.",Consumer Cyclical
+HSIC,"Henry Schein, Inc.",Healthcare
+MOS,The Mosaic Company,Basic Materials
+APA,APA Corporation,Energy
+MHK,"Mohawk Industries, Inc.",Consumer Cyclical
+CZR,"Caesars Entertainment, Inc.",Consumer Cyclical
+WBA,"Walgreens Boots Alliance, Inc.",Healthcare
+IVZ,Invesco Ltd.,Financial Services
+FMC,FMC Corporation,Basic Materials
+PARA,Paramount Global,Communication Services
+BWA,BorgWarner Inc.,Consumer Cyclical
+AMTM,"Amentum Holdings, Inc.",Industrials
+HII,"Huntington Ingalls Industries, Inc.",Industrials
+QRVO,"Qorvo, Inc.",Technology

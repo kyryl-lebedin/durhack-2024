@@ -1,28 +1,29 @@
 {% extends 'chatbot/base.html' %}
 
 {% block content %}
-<div class="columns is-centered is-vcentered" style="padding-top: 3vw">
+<div class="columns is-centered is-vcentered" style="padding-top: 3vw;">
     <div class="column is-full-mobile is-three-quarters-tablet is-half-desktop">
-        <div class="card">
+        <div class="card" style="display: flex; flex-direction: column; height: 80vh;">
             <header class="card-header">
-                <p class="card-header-title" style="padding-right: 5px">
+                <p class="card-header-title" style="padding-right: 5px; font-size: 20px">
                     <span class="icon" style="padding-right: 10px; padding-bottom: 1px">
-                        <i class="fas fa-robot"></i>
+                        <i class="fas fa-robot" style="padding-right: 5px"></i>
                     </span>
                     Agentic Advisor
                 </p>
             </header>
-            <div class="card-content" id="chat-box" style="height: 400px; overflow-y: auto;">
+            <div class="card-content" id="chat-box" style="flex: 1; overflow-y: auto; padding-bottom: 15px;">
                 <!-- Chat messages will appear here -->
             </div>
-            <footer class="card-footer" style="border: none;">
-                <form id="chat-form" class="field has-addons" style="width: 100%; padding-left: 20px; padding-right: 20px; padding-bottom: 20px;">
+
+            <footer class="card-footer" style="border: none; padding: 10px 20px;">
+                <form id="chat-form" class="field has-addons" style="width: 100%;">
                     {% csrf_token %}
                     <div class="control is-expanded">
-                        <input type="text" id="message-input" name="message" class="input is-rounded" placeholder="Message the advisor" autocomplete="off" style="border-radius: 5px; width: 98%">
+                        <input type="text" id="message-input" name="message" class="input is-rounded" placeholder="Message the advisor" autocomplete="off" style="border-radius: 5px; width: 98%;">
                     </div>
                     <div class="control">
-                        <button type="submit" class="button is-light" style="border-radius: 5px">
+                        <button type="submit" id="send-button" class="button is-light" style="border-radius: 5px;">
                             <span>Send</span>
                             <span class="icon is-small">
                                 <i class="fas fa-paper-plane"></i>
@@ -38,9 +39,44 @@
 <!-- Include Font Awesome for icons (optional) -->
 <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
 
+<!-- CSS for Message Alignment and Button Spinner -->
+<style>
+    /* User message (right-aligned) */
+    .user-message {
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /* Bot message (left-aligned) */
+    .bot-message {
+        text-align: left;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    /* Common message styling */
+    .message.is-inline-block {
+        max-width: 70%;
+        border-radius: 15px;
+    }
+
+    .bot-message .message-body {
+        background-color: #f5f5f5; /* Light color for bot messages */
+    }
+
+    /* Spinner for Send button */
+    .button.is-loading:after {
+        border: 2px solid transparent;
+        border-top-color: white;
+        border-right-color: white;
+    }
+</style>
+
 <script>
     const chatForm = document.getElementById('chat-form');
     const chatBox = document.getElementById('chat-box');
+    const sendButton = document.getElementById('send-button');
     const csrfToken = '{{ csrf_token }}';
 
     chatForm.addEventListener('submit', function(e) {
@@ -49,9 +85,9 @@
         const message = messageInput.value.trim();
 
         if (message) {
-            // Display user's message
+            // Display user's message on the right
             const userMessage = document.createElement('div');
-            userMessage.className = 'has-text-right mb-2';
+            userMessage.className = 'user-message mb-2';
             userMessage.innerHTML = `
                 <div class="message is-light is-inline-block">
                     <div class="message-body">
@@ -61,8 +97,10 @@
             `;
             chatBox.appendChild(userMessage);
 
-            // Clear input
+            // Clear input and show loading spinner on the button
             messageInput.value = '';
+            sendButton.classList.add('is-loading'); // Adds Bulma loading spinner class
+            sendButton.disabled = true; // Disables the button
 
             // Send message to server
             fetch("{% url 'chatbot:chat' %}", {
@@ -75,9 +113,13 @@
             })
             .then(response => response.json())
             .then(data => {
-                // Display bot's response
+                // Hide loading spinner on the button
+                sendButton.classList.remove('is-loading');
+                sendButton.disabled = false;
+
+                // Display bot's response on the left
                 const botMessage = document.createElement('div');
-                botMessage.className = 'has-text-left mb-2';
+                botMessage.className = 'bot-message mb-2';
                 botMessage.innerHTML = `
                     <div class="message is-light is-inline-block">
                         <div class="message-body">
@@ -90,7 +132,11 @@
                 // Scroll to bottom
                 chatBox.scrollTop = chatBox.scrollHeight;
             })
-            .catch(error => console.error('Error:', error));
+            .catch(error => {
+                console.error('Error:', error);
+                sendButton.classList.remove('is-loading');
+                sendButton.disabled = false;
+            });
         }
     });
 </script>

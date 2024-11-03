@@ -9,15 +9,44 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
     <!-- Optional custom CSS -->
     <link rel="stylesheet" href="{% static 'css/custom.css' %}">
-
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        @media (min-width: 769px) {
+            .navbar-logo img {
+                height: 80px; /* Increased logo height */
+            }
+        }
+        /* Simple media query for smaller screens */
+        @media (max-width: 768px) {
+            .navbar-brand, .navbar-end {
+                margin-left: 1rem !important;
+                margin-right: 1rem !important;
+            }
+            .navbar-item i {
+                font-size: 1.8rem !important; /* Smaller icon for mobile */
+            }
+            .navbar-item span {
+                font-size: 0.9rem !important; /* Adjust font size for smaller screens */
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar is-transparent" role="navigation" aria-label="main navigation" style="padding: 20px 0; background-color: #3c1053; box-shadow: none;">
-        <div class="navbar-brand" style="display: flex; align-items: center;">
-            <a href="#" style="margin-left: 100px; padding: 0;">
-                <img src="https://www.atombank.co.uk/_astro/atom-logo.CV42YAKh.svg" alt="Atom Bank" style="height: 50px; width: auto; padding-left: 70px">
+    <nav class="navbar is-transparent" role="navigation" aria-label="main navigation" style="padding: 10px 0; background-color: #3c1053;">
+        <div class="navbar-brand" style="display: flex; align-items: center; margin-left: 2rem;">
+            <!-- Atom Logo -->
+            <a href="#" style="padding: 0;">
+                <img src="https://www.atombank.co.uk/_astro/atom-logo.CV42YAKh.svg" alt="Atom Bank" style="height: 53px; width: auto;">
+            </a>
+        </div>
+        
+        <!-- Right-aligned User Welcome Section -->
+        <div class="navbar-end" style="display: flex; align-items: center; margin-right: 2rem;">
+            <a class="navbar-item" href="#" style="color: white;">
+                <i class="fas fa-user-circle" style="font-size: 2rem; color: white;"></i>
+                <span class="ml-2">Welcome, User!</span>
             </a>
         </div>
     </nav>  

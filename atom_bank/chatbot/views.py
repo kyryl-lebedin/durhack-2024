@@ -23,8 +23,11 @@ def chat_view(request):
         for i in resp:
             response_message += f"• {i}<br>\n"  # Using HTML `<br>` tags for new lines in HTML
 
+        formatted_stats = "<br>\n".join([f"{key}: {value}" for key, value in dict_stats.items()])
         
-        response_message += f"\n Based on our AI prediction and ML analysis, the predicted value of {user_message} next year is {round(prediction_value,2)}. Predicted statistics:{dict_stats}"
+        # Combine the response message with the formatted stats
+        response_message += f"\n Based on our AI prediction and ML analysis, the predicted value of {user_message} next year is {round(prediction_value, 2)}.<br> Predicted statistics:<br>\n{formatted_stats}"
+        
 
         response_message = response_message.replace("*", "")
 

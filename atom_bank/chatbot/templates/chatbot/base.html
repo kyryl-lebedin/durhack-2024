@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Atom Bank Chatbot</title>
+    {% load static %}
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <!-- Optional custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar is-transparent" role="navigation" aria-label="main navigation" style="padding: 20px 0; background-color: #3c1053; box-shadow: none;">
+        <div class="navbar-brand" style="display: flex; align-items: center;">
+            <a href="#" style="margin-left: 100px; padding: 0;">
+                <img src="https://www.atombank.co.uk/_astro/atom-logo.CV42YAKh.svg" alt="Atom Bank" style="height: 50px; width: auto; padding-left: 70px">
+            </a>
+        </div>
+    </nav>  
+
+    <!-- Page Content -->
+    {% block content %}{% endblock %}
+</body>
+</html>

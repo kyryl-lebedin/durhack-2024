@@ -1,0 +1,97 @@
+{% extends 'chatbot/base.html' %}
+
+{% block content %}
+<div class="columns is-centered is-vcentered" style="padding-top: 3vw">
+    <div class="column is-full-mobile is-three-quarters-tablet is-half-desktop">
+        <div class="card">
+            <header class="card-header">
+                <p class="card-header-title" style="padding-right: 5px">
+                    <span class="icon" style="padding-right: 10px; padding-bottom: 1px">
+                        <i class="fas fa-robot"></i>
+                    </span>
+                    Agentic Advisor
+                </p>
+            </header>
+            <div class="card-content" id="chat-box" style="height: 400px; overflow-y: auto;">
+                <!-- Chat messages will appear here -->
+            </div>
+            <footer class="card-footer" style="border: none;">
+                <form id="chat-form" class="field has-addons" style="width: 100%; padding-left: 20px; padding-right: 20px; padding-bottom: 20px;">
+                    {% csrf_token %}
+                    <div class="control is-expanded">
+                        <input type="text" id="message-input" name="message" class="input is-rounded" placeholder="Message the advisor" autocomplete="off" style="border-radius: 5px; width: 98%">
+                    </div>
+                    <div class="control">
+                        <button type="submit" class="button is-light" style="border-radius: 5px">
+                            <span>Send</span>
+                            <span class="icon is-small">
+                                <i class="fas fa-paper-plane"></i>
+                            </span>
+                        </button>
+                    </div>
+                </form>
+            </footer>
+        </div>
+    </div>
+</div>
+
+<!-- Include Font Awesome for icons (optional) -->
+<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+
+<script>
+    const chatForm = document.getElementById('chat-form');
+    const chatBox = document.getElementById('chat-box');
+    const csrfToken = '{{ csrf_token }}';
+
+    chatForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const messageInput = document.getElementById('message-input');
+        const message = messageInput.value.trim();
+
+        if (message) {
+            // Display user's message
+            const userMessage = document.createElement('div');
+            userMessage.className = 'has-text-right mb-2';
+            userMessage.innerHTML = `
+                <div class="message is-light is-inline-block">
+                    <div class="message-body">
+                        ${message}
+                    </div>
+                </div>
+            `;
+            chatBox.appendChild(userMessage);
+
+            // Clear input
+            messageInput.value = '';
+
+            // Send message to server
+            fetch("{% url 'chatbot:chat' %}", {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': csrfToken,
+                },
+                body: JSON.stringify({'message': message}),
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Display bot's response
+                const botMessage = document.createElement('div');
+                botMessage.className = 'has-text-left mb-2';
+                botMessage.innerHTML = `
+                    <div class="message is-light is-inline-block">
+                        <div class="message-body">
+                            ${data.response}
+                        </div>
+                    </div>
+                `;
+                chatBox.appendChild(botMessage);
+
+                // Scroll to bottom
+                chatBox.scrollTop = chatBox.scrollHeight;
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    });
+</script>
+{% endblock %}
